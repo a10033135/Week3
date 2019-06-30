@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="SaveButton">Save Edit</string>
+    <string name="Name">Name</string>
+    <string name="NickName">Nick Name</string>
+    <string name="About">About Me</string>
+    <string name="NewName">"Good"</string>
+</resources>

@@ -24,7 +24,7 @@ abstract class ProfileDatabase : RoomDatabase(){
                     instance = Room.databaseBuilder(
                         context.applicationContext,
                         ProfileDatabase::class.java,
-                        "sleep_history_database"
+                        "profile_history_database"
                     )
                         .fallbackToDestructiveMigration()
                         .build()

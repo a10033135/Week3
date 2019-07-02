@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.myapplication.database.ProfileDatabaseDao
 
-class ProfileViewModelFactory(
+class   ProfileViewModelFactory(
         private val dataSource: ProfileDatabaseDao,
         private val application: Application):ViewModelProvider.Factory{
 

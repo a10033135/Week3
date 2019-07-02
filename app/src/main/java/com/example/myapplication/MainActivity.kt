@@ -22,9 +22,6 @@ import javax.sql.CommonDataSource
 
 @Database(entities = [(ProfileSave::class)],version = 1)
 
-
-
-
 class MainActivity : AppCompatActivity() {
     private lateinit var database: ProfileDatabaseDao
     private var ProfileSaveData = MutableLiveData<ProfileSave?>()
@@ -36,10 +33,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-
-        binding.SaveButton.setOnClickListener {
-
-        }
 
 
     }
